@@ -1,2 +1,2 @@
-# HNUST-
+# HNUST-complier
 湖南科技大学2026年编译原理实验
