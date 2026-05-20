@@ -1,0 +1,12 @@
+// 测试1: 变量声明、赋值与表达式
+// 涵盖 int/float 变量、四则运算、类型转换
+
+int main() {
+    int a;
+    float b;
+    a = 10;
+    b = a * 1.5;
+    print(a);
+    print(b);
+    return 0;
+}

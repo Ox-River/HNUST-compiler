@@ -1,0 +1,30 @@
+// 测试4: while循环
+// 涵盖 while、break、continue
+
+int main() {
+    int i;
+    int sum;
+    i = 1;
+    sum = 0;
+
+    // 计算 1+2+...+10
+    while (i <= 10) {
+        sum = sum + i;
+        i = i + 1;
+    }
+    print(sum);  // 期望输出 55
+
+    // 测试break
+    i = 0;
+    sum = 0;
+    while (i < 100) {
+        i = i + 1;
+        if (i > 5) {
+            break;
+        }
+        sum = sum + i;
+    }
+    print(sum);  // 期望输出 15 (1+2+3+4+5)
+
+    return 0;
+}

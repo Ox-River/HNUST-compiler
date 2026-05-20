@@ -1,0 +1,17 @@
+// 测试5: 数组定义与使用
+// 涵盖一维数组的定义、赋值、访问
+
+int main() {
+    int arr[5];
+    arr[0] = 10;
+    arr[1] = 20;
+    arr[2] = 30;
+    arr[3] = 40;
+    arr[4] = 50;
+
+    print(arr[0]);
+    print(arr[2]);
+    print(arr[4]);
+
+    return 0;
+}

@@ -1,0 +1,13 @@
+// 测试2: 函数定义与调用
+// 涵盖有参函数、无参函数、返回值
+
+int add(int x, int y) {
+    return x + y;
+}
+
+int main() {
+    int result;
+    result = add(3, 5);
+    print(result);
+    return 0;
+}

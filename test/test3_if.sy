@@ -1,0 +1,26 @@
+// 测试3: if/else 分支语句
+// 涵盖 if-else、比较运算
+
+int abs(int n) {
+    if (n < 0) {
+        n = 0 - n;
+    }
+    return n;
+}
+
+int main() {
+    int a;
+    int b;
+    a = abs(-5);
+    b = abs(3);
+    print(a);
+    print(b);
+
+    // 测试if-else
+    if (a > b) {
+        print(a);
+    } else {
+        print(b);
+    }
+    return 0;
+}
