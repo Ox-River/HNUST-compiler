@@ -1,0 +1,8 @@
+# Office临时文件
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# 系统文件
+Thumbs.db
+.DS_Store
